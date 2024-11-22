@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza'n'Go</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+    h1 {
+      color: #e63946;
+      margin-top: 20vh;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+    input[type="email"] {
+      padding: 10px;
+      font-size: 1rem;
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      background-color: #e63946;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #d62828;
+    }
+    footer {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>Pizza'n'Go aprirà presto!</h1>
+  <p>Iscrivetevi alla nostra newsletter per rimanere aggiornati:</p>
+  <form action="https://formspree.io/f/mynextform" method="POST">
+    <input type="email" name="email" placeholder="Inserisci la tua email" required>
+    <button type="submit">Iscriviti</button>
+  </form>
+  <footer>© 2024 Pizza'n'Go</footer>
+</body>
+</html>
